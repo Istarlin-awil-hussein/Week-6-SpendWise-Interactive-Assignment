@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #176b52;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #176b52;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 12px 0;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #176b52;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #10513e;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #176b52;
+}
+
+#expenseList {
+    list-style: none;
+}
+
+#expenseList li {
+    background-color: #f4f7fb;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border-left: 4px solid #176b52;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
